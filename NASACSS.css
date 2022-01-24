@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
-    height: 100%;
+    min-height: 100vh;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -13,19 +14,25 @@ body {
     border: 2px solid rgb(248, 8, 8);
     font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 14px;
-     background-color: black;
+    background-color: black;
     margin: 0;
     display: block;
 }
+
 .wrapper {
     border: 2px solid rgb(231, 117, 11);
     width: 80%;
     margin: auto;
+    min-height: 100vh;
 }
+
 .flex-nav-container {
+    display: flex;
+    flex: 1;
     min-height: 100vh;
     background-image: url("/MasterCodingCourse/Week2/Day9/WebsiteClone/LongStarBackgroundBanner.png");
 }
+
 a {
     color: white;
     font-weight: 100;
@@ -34,12 +41,14 @@ a {
     font-size:larger;
     height: 80%;
 }
+
 .logo{
     /* border: 2px solid rgb(231, 117, 11); */
     position: absolute;
     margin: 21px;
     flex: 1;
 }
+
 .nav{
     /* border: 2px solid rgb(198, 231, 11); */
     text-align: left;
@@ -54,16 +63,19 @@ a {
     height: 55px;
     flex-wrap: wrap;
 }
+
 .nav  a:hover {
     background-color: rgb(32, 94, 228);
     color: rgb(255, 255, 255);
 }
+
 .nav ul{
     /* border: 2px solid rgb(11, 231, 40); */
     display: inline-block;
     list-style: none;
     
 }
+
 ul {
     /* border: 2px solid rgb(11, 161, 231); */
     list-style-type: none;
@@ -93,10 +105,12 @@ li a {
     border-right: 2px solid rgb(117, 117, 117);
     max-width: 100%;
 }
+
 .nav2  a:hover {
     background-color: rgb(167, 167, 167);
     color: rgb(255, 255, 255);
 }
+
 .nav2{
     display: flex;
     /* border: 2px solid rgb(231, 11, 114); */
@@ -115,6 +129,7 @@ li a {
     align-content: center;
     justify-content: space-between;
 }
+
 .box {
     /* border: 2px solid rgb(100, 7, 50); */
     display: flex;
@@ -126,6 +141,7 @@ li a {
     border-right: 2px solid rgb(141, 141, 141);  
     font-size: 14px;  
 }
+
 form.example input[type=text] {
     position: absolute;
     left: 890px;
@@ -142,9 +158,11 @@ form.example input[type=text] {
 .box.box16 {
     border-right: 2px solid #5f5f5f; 
 }
+
 .box.box7 {
     border-right: 2px solid rgb(0, 0, 0); 
 }
+
 form.example button {
     display: block;
     /* border: 2px solid rgb(205, 11, 231); */
@@ -161,10 +179,12 @@ form.example button {
     font-size: 17px;
     cursor: pointer;
 } 
+
 #Webbs img {
     position: absolute;
     top: 148px;
 }
+
 #spaceman img {
     position: absolute;
     top: 148px;
@@ -184,11 +204,13 @@ form.example button {
 }
 .Webbtext {
     position:absolute;
-    top: 700px;
-    font-weight: 600;
-    background-color: rgb(85, 112, 161);
-    max-height: 30px;
+    top: 698px;
+    font-weight: 595;
+    background-color: rgb(114, 139, 184);
+    max-height: 36px;
+    max-width: 300px;
     padding-left: 15px;
+    padding-right: 10px;
 }
 .Webbtext2 {
     position: absolute;
@@ -196,9 +218,9 @@ form.example button {
     color: black;
     background-color: #ffffff;
     max-height: 30px;
-    max-width: 700px;
+    max-width: 750px;
     padding-left: 15px;
-    padding-right: 164px;
+    padding-right: 136px;
     font-weight: 500;
     font-size: 19px;
 }
@@ -207,7 +229,7 @@ form.example button {
     top: 358px;
     left: 868px;
     font-weight: 600;
-    background-color: rgb(85, 112, 161);
+    background-color: rgb(114, 139, 184);
     max-height: 30px;
     padding-left: 15px;
     padding-right: 9px;
@@ -224,6 +246,317 @@ form.example button {
     font-size: 19px;
     padding-left: 10px;
 }
-/* .leftfooter {
-    font-size: ;
-} */
+#topPic3 {
+    position: absolute;
+    top:463px;
+    left: 869px;
+}
+.SpaceStationtext {
+    position: absolute;
+    top: 696px;
+    left: 869px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 34px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.SpaceStationtext2 {
+    position: absolute;
+    top: 730px;
+    left: 869px;
+    color: black;
+    background-color: #ffffff;
+    max-height: 30px;
+    max-width: 750px;
+    padding-left: 10px;
+    padding-right: 153px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#middlepic1 {
+    position: absolute;
+    top: 775px;
+}
+.SpaceStationResearchtext {
+    position: absolute;
+    top: 984px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 32px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.SpaceStationResearchtext2 {
+    position: absolute;
+    top: 1016px;
+    color: black;
+    background-color: #ffffff;
+    max-width: 750px;
+    padding-left: 10px;
+    /* padding-right: 136px; */
+    font-weight: 500;
+    font-size: 19px;
+    max-height: 53px;
+    max-width: 328px;
+}
+
+#middlepic2 {
+    position: absolute;
+    top: 775px;
+    left: 520px;
+}
+.SolarSailtext {
+    position: absolute;
+    top: 1007px;
+    left: 520px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 32px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.SolarSailtext2 {
+    position: absolute;
+    top: 1039px;
+    left: 521px;
+    color: black;
+    background-color: #ffffff;
+    max-height: 30px;
+    max-width: 750px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    padding-right: 102px;
+}
+
+#middlepic3 {
+    position: absolute;
+    top: 775px;
+    left: 1210px;
+}
+.Hubbletext {
+    position: absolute;
+    top: 1007px;
+    left: 1210px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 32px;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.Hubbletext2 {
+    position: absolute;
+    top: 1039px;
+    left: 1210px;
+    color: black;
+    background-color: #ffffff;
+    max-height: 30px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    padding-right: 92px;
+}
+
+#bottompic1 {
+    position: absolute;
+    top: 1080px;
+}
+.Newstext {
+    position: absolute;
+    top: 1291px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 32px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+.Newstext2 {
+    position: absolute;
+    top: 1323px;
+    color: black;
+    background-color: #ffffff;
+    max-width: 750px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 19px;
+    max-height: 53px;
+    max-width: 324px;
+}
+
+#bottompic2 {
+    position: absolute;
+    top: 1080px;
+    left: 520px;
+}
+.Eruptiontext {
+    position: absolute;
+    top: 1292px;
+    left: 520px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 32px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+.Eruptiontext2 {
+    position: absolute;
+    top: 1323px;
+    left: 520px;
+    color: black;
+    background-color: #ffffff;
+    max-width: 750px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    max-height: 53px;
+    max-width: 329px;
+}
+
+#bottompic3 {
+    position: absolute;
+    top: 1080px;
+    left: 869px;
+}
+.Marstext {
+    position: absolute;
+    top: 1289px;
+    left: 869px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 33px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+.Marstext2 {
+    position: absolute;
+    top: 1323px;
+    left: 869px;
+    color: black;
+    background-color: #ffffff;
+    max-width: 750px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    max-height: 53px;
+    max-width: 329px;
+}
+
+#bottompic4 {
+    position: absolute;
+    top: 1080px;
+    left: 1210px;
+}
+.SolarSystemtext {
+    position: absolute;
+    top: 1289px;
+    left: 1210px;
+    font-weight: 600;
+    background-color: rgb(114, 139, 184);
+    max-height: 34px;
+    padding-left: 15px;
+    padding-right: 12px;
+}
+.SolarSystemtext2 {
+    position: absolute;
+    top: 1323px;
+    left: 1210px;
+    color: black;
+    background-color: #ffffff;
+    max-width: 750px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    max-height: 53px;
+    max-width: 329px;
+}
+
+.bottomdiv {
+    position: absolute;
+    top: 1400px;
+    background-color: rgb(18, 60, 151);
+    width: 1360px;
+    max-height: 40px;
+    padding-left: 620px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.logo2 {
+    position: absolute;
+    top: 1470px;
+}
+
+.bottomdiv2 {
+    position: absolute;
+    top: 1480px;
+    left: 287px;
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 300px;
+}
+
+.div1 {
+    position: absolute;
+    top: 1530px;
+    left: 655px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div2 {
+    position: absolute;
+    top: 1530px;
+    left: 760px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div3 {
+    position: absolute;
+    top: 1530px;
+    left: 830px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div4 {
+    position: absolute;
+    top: 1530px;
+    left: 910px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div5 {
+    position: absolute;
+    top: 1530px;
+    left: 1100px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div6 {
+    position: absolute;
+    top: 1530px;
+    left: 1280px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
+.div7 {
+    position: absolute;
+    top: 1530px;
+    left: 1460px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 137, 197);
+}
