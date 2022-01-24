@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    min-height: 100vh;
+    border: 2px solid rgb(248, 8, 8);
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+     background-color: black;
+    margin: 0;
+    display: block;
+}
+.wrapper {
+    border: 2px solid rgb(231, 117, 11);
+    width: 80%;
+    margin: auto;
+}
+.flex-nav-container {
+    min-height: 100vh;
+    background-image: url("/MasterCodingCourse/Week2/Day9/WebsiteClone/LongStarBackgroundBanner.png");
+}
+a {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5%;
+    text-decoration: none;
+    font-size:larger;
+    height: 80%;
+}
+.logo{
+    /* border: 2px solid rgb(231, 117, 11); */
+    position: absolute;
+    margin: 21px;
+    flex: 1;
+}
+.nav{
+    /* border: 2px solid rgb(198, 231, 11); */
+    text-align: left;
+    position: absolute;
+    left:25%;
+    top: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    float: none;
+    height: 55px;
+    flex-wrap: wrap;
+}
+.nav  a:hover {
+    background-color: rgb(32, 94, 228);
+    color: rgb(255, 255, 255);
+}
+.nav ul{
+    /* border: 2px solid rgb(11, 231, 40); */
+    display: inline-block;
+    list-style: none;
+    
+}
+ul {
+    /* border: 2px solid rgb(11, 161, 231); */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* height: 800px; */
+    
+}
+  
+li {
+    /* border: 2px solid rgb(106, 11, 231); */
+    float: left;
+    display:flex;
+
+}
+  
+li a {
+    /* border: 2px solid rgb(205, 11, 231); */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-weight:400;
+    font-size: 140%;
+    text-decoration: none;
+    border-right: 2px solid rgb(117, 117, 117);
+    max-width: 100%;
+}
+.nav2  a:hover {
+    background-color: rgb(167, 167, 167);
+    color: rgb(255, 255, 255);
+}
+.nav2{
+    display: flex;
+    /* border: 2px solid rgb(231, 11, 114); */
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    /* max-height: 40px; */
+    height: 38px;
+    width: 998px;
+    list-style: none;
+    margin: 0;
+    float: none;
+    flex-wrap: wrap;
+    font-weight: 400;
+    background: #5f5f5f;
+    align-content: center;
+    justify-content: space-between;
+}
+.box {
+    /* border: 2px solid rgb(100, 7, 50); */
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 6px 15px;
+    text-decoration: none;
+    max-width: 100%;
+    border-right: 2px solid rgb(141, 141, 141);  
+    font-size: 14px;  
+}
+form.example input[type=text] {
+    position: absolute;
+    left: 890px;
+    top: 15%;
+    height: 40px;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    float: left;
+    width: 18%;
+    background: #444444;
+}
+
+.box.box16 {
+    border-right: 2px solid #5f5f5f; 
+}
+.box.box7 {
+    border-right: 2px solid rgb(0, 0, 0); 
+}
+form.example button {
+    display: block;
+    /* border: 2px solid rgb(205, 11, 231); */
+    position: absolute;
+    left: 1005px;
+    top: 15%;   
+    float: left;
+    width: 40px;
+    height:40px;
+    border: none;
+    padding: 8px;
+    background: #444444;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+} 
+#Webbs img {
+    position: absolute;
+    top: 148px;
+}
+#spaceman img {
+    position: absolute;
+    top: 148px;
+    left: 869px;
+}
+#info {
+    position:absolute;
+    top: 148px;
+    left:1210px;
+    background-color: #39719e;
+    background-clip: content-box;
+    width: 330px;
+    /* font-size: smaller;
+    font-weight:100; */
+    font-size: 14px;
+    line-height: 16px;
+}
+.Webbtext {
+    position:absolute;
+    top: 700px;
+    font-weight: 600;
+    background-color: rgb(85, 112, 161);
+    max-height: 30px;
+    padding-left: 15px;
+}
+.Webbtext2 {
+    position: absolute;
+    top: 730px;
+    color: black;
+    background-color: #ffffff;
+    max-height: 30px;
+    max-width: 700px;
+    padding-left: 15px;
+    padding-right: 164px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.spacemantext {
+    position: absolute;
+    top: 358px;
+    left: 868px;
+    font-weight: 600;
+    background-color: rgb(85, 112, 161);
+    max-height: 30px;
+    padding-left: 15px;
+    padding-right: 9px;
+}
+.spacemantext2 {
+    position: absolute;
+    top: 388px;
+    left: 868px;
+    color: black;
+    background-color: #ffffff;
+    max-height: 60px;
+    max-width: 328px;
+    font-weight: 500;
+    font-size: 19px;
+    padding-left: 10px;
+}
+/* .leftfooter {
+    font-size: ;
+} */
